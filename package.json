@@ -6,7 +6,7 @@
     "assets:pull": "node ./utils/deployment/pull-assets.js",
     "assets:push": "node ./utils/deployment/push-assets.js",
     "build": "NODE_ENV=production node ./config/scripts/build.js",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "data:fetch": "node ./utils/fetch/get-data.js",
     "git-pre-commit": "precise-commits",
     "predeploy": "npm run build && npm run assets:push",

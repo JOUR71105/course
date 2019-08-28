@@ -1,11 +1,12 @@
 {
   "name": "JOUR71105",
   "private": true,
+  "homepage": "https://jour71105.github.io/course",
   "scripts": {
     "assets:pull": "node ./utils/deployment/pull-assets.js",
     "assets:push": "node ./utils/deployment/push-assets.js",
     "build": "NODE_ENV=production node ./config/scripts/build.js",
-    "deploy": "node ./utils/deployment/deploy.js",
+    "deploy": "gh-pages -d build",
     "data:fetch": "node ./utils/fetch/get-data.js",
     "git-pre-commit": "precise-commits",
     "predeploy": "npm run build && npm run assets:push",
@@ -49,6 +50,7 @@
     "fast-async": "^7.0.6",
     "fast-glob": "^2.2.2",
     "fs-extra": "^7.0.0",
+    "gh-pages": "^2.1.1",
     "glob-watcher": "^5.0.3",
     "googleapis": "^37.0.0",
     "html-minifier": "^3.5.21",

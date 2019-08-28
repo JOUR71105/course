@@ -15,7 +15,7 @@ module.exports = {
   /**
    * The folder (or "Key" in S3 lingo) to deploy the project into.
    */
-  folder: 'features/2019/JOUR71105',
+  folder: 'course',
   /**
    * The S3 bucket that's used to store raw asset and workspace files.
    */

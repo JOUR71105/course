@@ -62,7 +62,7 @@
     "journalize": "^2.1.0",
     "mime-types": "^2.1.17",
     "nunjucks": "^3.0.1",
-    "postcss": "^7.0.2",
+    "postcss": "^8.2.10",
     "postcss-flexbugs-fixes": "^4.1.0",
     "precise-commits": "^1.0.2",
     "prettier": "^1.12.1",

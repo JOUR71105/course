@@ -34,7 +34,7 @@
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.0",
     "babel-plugin-macros": "^2.4.0",
-    "browser-sync": "^2.23.5",
+    "browser-sync": "^2.27.10",
     "case-sensitive-paths-webpack-plugin": "^2.1.1",
     "clean-css": "^4.2.1",
     "clipboardy": "^1.2.2",
